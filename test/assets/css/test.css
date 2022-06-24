@@ -1,0 +1,116 @@
+:root{
+    --orange: #F7B633;
+}
+
+:root{
+    --lightorange: #ffc772;
+}
+
+:root{
+    --darkorange: #b08126;
+}
+
+:root{
+    --darkblue: #142850;
+}
+:root{
+    --lightblue: #5893D4;
+}
+
+:root{
+    --black: black;
+}
+
+:root{
+    --lightgrey: darkgray;
+}
+
+:root{
+    --darkgrey: gray;
+}
+
+
+
+body{
+    background-color: var(--lightblue);
+}
+
+header{
+    text-align: center;
+    background-color: var(--darkblue);
+    color: var(--lightblue);
+    height: 4.8rem;
+    position: fixed;
+    width: 100%;
+}
+
+.title{
+    font-size: 5rem;
+}
+
+.card{
+    text-align: center;
+    box-shadow: 0px 3px 20px var(--darkblue);
+    width: 90vw;
+    height: 80vh;
+    border-width: 3px;
+    border-radius: 20px;
+    border-color: var(--darkblue);
+    background-color: #F7B633;
+    color: var(--black);
+    margin: auto;
+}
+
+.card-text{
+    font-size: 1.5rem;
+    padding-top: 2vh;
+}
+
+.card-container{
+    padding-top: 7rem;
+    margin: auto;
+}
+
+button{
+    font-size: 3vh;
+    background-color: var(--black);
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+button:hover{
+    font-size: 3.5vh;
+    background-color: var(--darkgrey);
+    color: var(--orange);
+}
+
+button:active{
+    background-color: var(--lightgrey);
+    font-size: 3.25vh;
+    transition: 0.1s;
+}
+
+.card-link{
+    color: var(--orange);
+    text-decoration: none;
+}
+
+.card-link:hover{
+    color: var(--orange);
+}
+
+.edit-button{
+    color: blue;
+    border-width: 0px;
+    width: 50%;
+    margin: auto;
+    border-radius: 0px;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.edit-button:hover{
+    font-size: 3.5vh;
+    background-color: transparent;
+    color: lightblue;
+}

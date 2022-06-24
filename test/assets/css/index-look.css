@@ -1,0 +1,178 @@
+:root{
+    --orange: #F7B633;
+}
+
+:root{
+    --lightorange: #ffc772;
+}
+
+:root{
+    --darkorange: #b08126;
+}
+
+:root{
+    --darkblue: #142850;
+}
+
+:root{
+    --outline-of-btns: #142850;
+}
+
+
+:root{
+    --lightblue: #5893D4;
+}
+
+:root{
+    --black: black;
+}
+
+:root{
+    --lightgrey: darkgray;
+}
+
+:root{
+    --darkgrey: gray;
+}
+
+/*darkmode*/
+/*:root{
+    --orange: #142850;
+}
+
+:root{
+    --lightorange: #466788;
+}
+
+:root{
+    --darkorange: #5893D4;
+}
+
+:root{
+    --darkblue: #142850;
+}
+
+:root{
+    --outline-of-btns: #466788;
+}
+
+:root{
+    --lightblue: #5893D4;
+}
+
+:root{
+    --black: #8db9e7;
+}
+
+:root{
+    --lightgrey: darkgray;
+}
+
+:root{
+    --darkgrey: gray;
+}*/
+
+body{
+    background-color: var(--lightblue);
+}
+
+header{
+    text-align: center;
+}
+
+.top-bar{
+    background-color: var(--darkblue);
+    color: var(--lightblue);
+    height: 4.8rem;
+    position: fixed;
+    width: 100%;
+}
+
+.title{
+    font-size: 5rem;
+}
+
+.card{
+    border-width: 3px;
+    border-radius: 20px;
+    border-color: var(--outline-of-btns);
+    background-color: var(--orange);
+    color: var(--black);
+    margin-top: 1.5rem;
+    box-shadow: 0px 3px 20px var(--darkblue);
+    transition: 0.3s;
+}
+
+.card-link{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.card-text{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 25vw;
+    color: var(--darkorange);
+    white-space: nowrap;
+}
+
+.card-title{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.card-link:hover{
+    color: var(--black);
+}
+
+
+.card:hover{
+    border-radius: 40px;
+    background-color: var(--lightorange);
+}
+
+.container-fluid{
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+}
+
+.bottom-bar{
+    text-align: center;
+    background-color: var(--darkblue);
+    color: var(--lightblue);
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    box-shadow: 0px -3px 20px var(--darkblue);
+}
+
+.new-note{
+    height: 14vh;
+    width: 14vh;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10vh;
+    background-color: var(--orange);
+    border-width: 8px;
+    border-style: solid;
+    border-color: var(--outline-of-btns);
+    font-size: 5vh;
+    text-align: center;
+    box-shadow: 0px -3px 20px var(--darkblue);
+}
+
+.new-note:hover{
+    height: 16vh;
+    width: 16vh;
+}
+
+.button-link{
+    text-decoration: none;
+    color: var(--black);
+}
